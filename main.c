@@ -42,9 +42,9 @@ void PrintManualColorCode(const ColorPair* colorPair, char* buffer) {
        ColorPair colorPair = GetColorFromPairNumber(i);
        sprintf(" Color Code %d maps to MajorColor %s and MinorColor %s",i,
             MajorColorNames[colorPair.majorColor],
-            MinorColorNames[colorPair.minorColor]);
-        
+            MinorColorNames[colorPair.minorColor]);       
     }
+}
     
  
     
