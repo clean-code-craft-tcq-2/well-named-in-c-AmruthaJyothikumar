@@ -31,7 +31,7 @@ void testPairNumberfromColor (
 void testPrintManualColorCode()
 {
     PrintManualColorCode();
-    assert(1 =! 0);
+    return(1);
 }
 
 void main() {
