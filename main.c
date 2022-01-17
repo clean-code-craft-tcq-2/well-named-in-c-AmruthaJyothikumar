@@ -35,3 +35,19 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
             colorPair->minorColor + 1;
 }
 
+void PrintManualColorCode(const ColorPair* colorPair, char* buffer) {
+    for(i=1; i<=26;i++)
+    {
+       ColorPair colorPair = GetColorFromPairNumber(i);
+       sprintf(" Color Code %d maps to MajorColor %s and MinorColor %s",i,
+            MajorColorNames[colorPair->majorColor],
+            MinorColorNames[colorPair->minorColor]);
+        
+    }
+    
+ 
+    
+
+    
+    
+    
