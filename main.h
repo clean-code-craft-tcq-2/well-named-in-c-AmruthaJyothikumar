@@ -7,13 +7,6 @@ typedef struct {
 } ColorPair;
 extern ColorPair Colors;
 
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
-
 extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern int GetPairNumberFromColor(const ColorPair* colorPair);
 extern void PrintColorPairToString(const ColorPair* colorPair, char* buffer);
