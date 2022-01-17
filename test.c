@@ -28,18 +28,10 @@ void testPairNumberfromColor (
     assert(pairNumber == expectedPairNumber);
 }
 
-void testPrintManualColorCode()
-{
-    PrintManualColorCode();
-    return(1);
-}
-
 void main() {
     testColorfromPairNumber(4, WHITE, BROWN);
     testColorfromPairNumber(5, WHITE, SLATE);
 
     testPairNumberfromColor(BLACK, ORANGE, 12);
     testPairNumberfromColor(VIOLET, SLATE, 25);
-    
-    testPrintManualColorCode();
 }
