@@ -36,6 +36,7 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
 }
 
 void PrintManualColorCode(const ColorPair* colorPair, char* buffer) {
+    int i;
     for(i=1; i<=26;i++)
     {
        ColorPair colorPair = GetColorFromPairNumber(i);
